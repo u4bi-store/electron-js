@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>electron - basic</title>
+  </head>
+  <body>
+    <h1>안녕하세요.</h1>
+
+    <!-- node.js의 모든 api 사용 가능 -->
+    <p>
+      현재 node 버젼 <script>document.write(process.versions.node)</script>
+    </p>
+    
+    <p>
+      크로미움 버젼 <script>document.write(process.versions.chrome)</script>
+    </p>
+
+    <p>
+      일렉트론 버젼 <script>document.write(process.versions.electron)</script>
+    </p>
+
+  </body>
+
+  <script>
+    /* 타 파일 포함*/
+    require('./renderer.js')
+  </script>
+</html>
