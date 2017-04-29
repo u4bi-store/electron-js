@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "electron index.js"
+    "start": "electron index.js",
+    "build": "electron-packager . basic-u4bi"
   },
   "keywords": [],
   "author": "",
